@@ -11,6 +11,7 @@
 ## Notes
 
 - Currently, you need to manually press the green "refresh" icon in your initial editor to trigger a refresh. I highly recommend protyping your Svelte application separately first until I can come up with a good solution.
+- If you find *any* issues, please file a report. This is going to be used as a template for several other projects I am beginning and I would appreciate any help.
 
 ## Example Usage
 
