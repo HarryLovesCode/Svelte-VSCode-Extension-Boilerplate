@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-1. Run `npm install` in the root of the directory. 
+1. Run `npm install` in the root of the directory. And, do the same in the `ui` directory.
 2. Run `cd ui && npm run dev` in a Terminal Tab.
 3. Press `F5` / trigger the debugger.
 4. A new VSCode window should launch.
