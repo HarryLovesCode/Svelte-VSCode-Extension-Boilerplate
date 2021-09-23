@@ -1,0 +1,48 @@
+{
+	"name": "svelte-vscode",
+	"description": "Svelte VSCode Extension Boilerplate",
+	"version": "0.0.1",
+	"publisher": "harrylovescode",
+	"private": true,
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/harrylovescode/svelte-vscode-extension-boilerplate"
+	},
+	"engines": {
+		"vscode": "^1.47.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:svelteExample.start",
+		"onWebviewPanel:svelte"
+	],
+	"main": "./out/ext/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "svelteExample.start",
+				"title": "Open Svelte Extension",
+				"category": "Extension Examples"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint . --ext .ts,.tsx",
+		"watch": "tsc -w -p ./"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@types/node": "^12.12.0",
+		"@types/vscode": "^1.47.0",
+		"@types/vscode-webview": "^1.57.0",
+		"@typescript-eslint/eslint-plugin": "^4.16.0",
+		"@typescript-eslint/parser": "^4.16.0",
+		"eslint": "^7.21.0",
+		"typescript": "^4.3.5"
+	}
+}
